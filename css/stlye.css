@@ -21,44 +21,16 @@ li a {
 li a:hover {
   background-color: #111;
 }
-body{
-  margin: 0;
-}
-.header{
-    background: rgb(84, 79, 97);
-    color: white;
-    margin-left:20px;
-    margin-right:20px;
-    padding: 120px;
-    align-items:right;
-    justify-content: right;
-    display: flex;
-}
-.header1{
-    width: 80%;
-    height: 30vh;
-    color:black;
-    background-color: none;
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    
-}
- .header1 img{
-    margin-left: 25%;
-    width: 40%;
-    height: 99%;
-    border-radius: 100%;
-}
-  * {
-    box-sizing: border-box;
-  }
   
 .column1 {
     float: left;
     width: 50%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
+}
+.column1 img{
+  margin-left: 30%;
+  height: 100%;
 }
   .column2 {
     float: left;
@@ -158,7 +130,7 @@ nav a{
 .container-form{
   background:rgb(124, 122, 122);
   width: 100%;
-  height: 400px;
+  height: 450px;
   padding: 10px;
 }
 input{
@@ -215,29 +187,6 @@ thead tr{
 .table{
   margin-top: 15px;
 }
-@media(max-width:600px){
-  .container{
-      width: 100%;
-  }
-  .choose a{
-      display: none;
-  }
-  .body-content{
-      width: 100%;
-  }
-  .form{
-      width: 100%;
-  }
-  .table{
-      width: 100%;
-  }
-  input[tpye=submit],input[tpye=reset],input[tpye=text],input[type=radio],input[type=checkbox],input[tpye=email]{
-      width: 100%;
-  }
-}
-* {
-  box-sizing: border-box;
-}
 
 /* Create two equal columns that floats next to each other */
 .column3 {
@@ -266,57 +215,141 @@ thead tr{
   display: table;
   clear: both;
 }
-.icons{
+/* .icons{
   margin-left: 100px;
   margin-top:0px ;
   font-size:0;
-}
+} */
 .down{
-  margin-left: 500px;
+  margin-left:100%;
   width: auto;
 }
 .btn {
   background-color: DodgerBlue;
   border: none;
   color: white;
-  padding: 20px 50px;
+  padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-  margin-top: 50px;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
 }
-/* .container1{
-  background: gray;
+.container{
+  background: black;
   padding: 15px;
-  margin-top: 100px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  ;
-} */
+}
 .down1{
   margin-left: 100px;
   width: auto;
 }
-.btn1 {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 20px 50px;
-  cursor: pointer;
-  font-size: 20px;
-  margin-top: 50px;
+
+/* /* .map{
+  width: 10px;
+  margin: 30%;
+  margin-left: 20pX;
+  margin-right: auto; */
+
+/* } */
+.row1{
+margin-top: 3px;  
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
+.fa:hover {
+    opacity: 0.7;
 }
-.map{
-  width: 10;
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
+.fa-flickr {
+  background: #eb047f;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+/* experience */
+/* .anlo{
+  background: rgb(84, 79, 97);
+  color: white;
+  margin-left:20px;
+  margin-right:20px;
+  padding: 120px;
+  align-items:right;
+  justify-content: right;
+  display: flex;
+} */
+.anli{
+  width: 80%;
+  height: 30vh;
+  color:black;
+  background-color: none;
+  position: absolute;
+  top: 35%;
+  left: 10%;
   
+}
+.anli img{
+  margin-left: 30%;
+  width: 40%;
+  height: 99%;
+  border-radius: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.col1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.col2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+  top:50%;
+}
+
+/* Clear floats after the columns */
+.rw:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.text{
+margin-top: 50%;
+text-align: center;
+margin-left: 50%;
+}
+.container5{
+  background: black;
+  padding: 15px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download img{
+  margin-top:19%;
+}
