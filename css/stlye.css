@@ -66,6 +66,7 @@ li a:hover {
   padding: 20px;
   
 }
+
 .header2{
   background: rgb(84, 79, 97);
   color: white;
@@ -75,8 +76,8 @@ li a:hover {
   text-align: center;
 }
 .header{
-  background: rgb(4, 51, 59);
-  color: white;
+  background:rgb(124, 122, 122);
+  color: black;
   
 }
 header{
@@ -359,7 +360,7 @@ margin-left: 50%;
 .container5{
   background: black;
   padding: 15px;
-  margin-top: 60px;
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,4 +372,123 @@ margin-left: 50%;
   position: absolute;
   margin-top: 30%;
   margin-left: 5px;
+}
+/* resum */
+.col11 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.col11 img{
+margin-left: 18%;
+height: 100%;
+}
+.col22 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.rww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.text{
+  margin-top: 50%;
+  text-align: center;
+  margin-left: 50%;
+  }
+.col22 h1{
+    text-align: center;
+}
+.CL img{
+  width: 20%;
+  height: 20%;
+}
+.CV img{
+  width: 20%;
+  height: 20%;
+}
+.container{
+  background: black;
+  padding: 15px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.c1{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rw:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.download33 img{
+  margin-top:19%;
+}
+.download33 h3{
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column img{
+ width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.downcat button{
+  width: 40%;
+  background-color:  RoyalBlue;
+  text-align: center;
+}
+
+.contect iframe{
+  width: 50%;
+  height: 25%;
 }
