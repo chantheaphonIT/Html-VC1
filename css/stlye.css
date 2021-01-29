@@ -492,3 +492,23 @@ height: 100%;
   width: 50%;
   height: 25%;
 }
+@media(max-width:600px){
+  .container{
+      width: 100%;
+  }
+  .choose a{
+      display: none;
+  }
+  .body-content{
+      width: 100%;
+  }
+  .form{
+      width: 100%;
+  }
+  .table{
+      width: 100%;
+  }
+  input[tpye=submit],input[tpye=reset],input[tpye=text],input[type=radio],input[type=checkbox],input[tpye=email]{
+      width: 100%;
+  }
+}
